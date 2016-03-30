@@ -18,7 +18,6 @@ Module Functor.
     Structure pack_functor: Type := Pack {type:Type->Type; _ : mixin_of type}.
     Local Coercion type: pack_functor >-> Funclass.
 
-
     Variable Pk: pack_functor.
     Parameter F:Type->Type.
 

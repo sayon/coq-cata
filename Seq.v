@@ -16,4 +16,3 @@ Defined.
 Canonical ListFunctor := Functor seq seq_functor_mixin.
 
 Definition example := [:: 1; 2; 3].
-Compute fmap (fun x=> x+1) ls.
